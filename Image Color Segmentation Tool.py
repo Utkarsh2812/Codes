@@ -23,7 +23,7 @@ def on_trackbar_update(_):
     cv2.imshow('Segmented Image', segmented)
 
 # Load the image
-image = cv2.imread('Thresh_segmentation.png')
+image = cv2.imread('Image_for_Segmentation.png')
 rgb_image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
